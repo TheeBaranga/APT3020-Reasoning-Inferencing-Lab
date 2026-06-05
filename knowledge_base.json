@@ -1,0 +1,44 @@
+{
+  "rules": [
+    {
+      "rule_name": "Scholarship Rule",
+      "conditions": [
+        "GPA > 3.5",
+        "Attendance > 80%",
+        "No Disciplinary Cases"
+      ],
+      "conclusion": "Eligible for Scholarship"
+    },
+    {
+      "rule_name": "Graduation Rule",
+      "conditions": [
+        "GPA > 3.0",
+        "Completed Prerequisite Courses",
+        "No Outstanding Fees"
+      ],
+      "conclusion": "Eligible for Graduation"
+    },
+    {
+      "rule_name": "Probation Rule",
+      "conditions": [
+        "GPA < 3.0"
+      ],
+      "conclusion": "Academic Probation"
+    },
+    {
+      "rule_name": "Registration Rule",
+      "conditions": [
+        "Outstanding Fees"
+      ],
+      "conclusion": "Registration Blocked"
+    },
+    {
+      "rule_name": "Dean's List Rule",
+      "conditions": [
+        "GPA > 3.5",
+        "Attendance > 80%"
+      ],
+      "conclusion": "Dean's List Candidate"
+    }
+  ]
+}
